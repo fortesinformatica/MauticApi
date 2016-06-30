@@ -3,8 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauticApi.Client", "src\MauticApi.Client\MauticApi.Client.csproj", "{32D18616-3614-4EE1-A8E5-A4D7B395B1D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{E9564060-79AC-4D8A-A33C-FA29BDB7FBB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E33C6B9B-7CEA-4E6A-9FF3-092A5690FE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauticApi.Client.Test", "src\MauticApi.Client.Test\MauticApi.Client.Test.csproj", "{3D66909F-3D33-4971-8992-BF54D6F9A70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauticApi.Samples.OAuth2", "src\MauticApi.Samples.OAuth2\MauticApi.Samples.OAuth2.csproj", "{06845431-53A7-40AF-87A9-1A2FE991D597}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D18616-3614-4EE1-A8E5-A4D7B395B1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D18616-3614-4EE1-A8E5-A4D7B395B1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D18616-3614-4EE1-A8E5-A4D7B395B1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D18616-3614-4EE1-A8E5-A4D7B395B1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D66909F-3D33-4971-8992-BF54D6F9A70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D66909F-3D33-4971-8992-BF54D6F9A70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D66909F-3D33-4971-8992-BF54D6F9A70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D66909F-3D33-4971-8992-BF54D6F9A70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06845431-53A7-40AF-87A9-1A2FE991D597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06845431-53A7-40AF-87A9-1A2FE991D597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06845431-53A7-40AF-87A9-1A2FE991D597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06845431-53A7-40AF-87A9-1A2FE991D597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D66909F-3D33-4971-8992-BF54D6F9A70B} = {E33C6B9B-7CEA-4E6A-9FF3-092A5690FE65}
+		{06845431-53A7-40AF-87A9-1A2FE991D597} = {E9564060-79AC-4D8A-A33C-FA29BDB7FBB2}
 	EndGlobalSection
 EndGlobal
